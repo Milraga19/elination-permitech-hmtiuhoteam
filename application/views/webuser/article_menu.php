@@ -35,16 +35,34 @@
 
        <!-- our place -->
        <div class="row ourplace">
-           <div class="col-lg-6">
-               <!-- <video class="img-fluid" width="536" height="374" controls>
-                    <source src="img/video/video.mp4" type="video/mp4">
-                </video> -->
-               <img src="<?= base_url("assets/img/brand.png") ?>" alt="logo" width="60%" style="margin-left: 30px;">
-           </div>
-           <div class="col-lg-6">
-               <h3>TIE <span>Forum</span></h3>
-               <p>Menyediakan Wadah Diskusi dan Bertukar Pikiran bagi Anda yang tertarik dengan Technopreneur, Investment, dan Business. Pecahkan Permasalahan dan Temukan Solusi Terbaik.</p>
-               <!-- <a href="http://instagram.com/nasgorskripsi.id" class="btn btn-warning tombol">Cek Instagram Kami</a> -->
+           <h2 style="margin:15px auto;">Daftar Artikel</h2>
+           <div class="container">
+               <div class="row">
+                   <div class="card col-4" style="width: 18rem;">
+                       <img src="<?= base_url("assets/img/examples/example1.jpeg") ?>" class="card-img-top" alt="..." style="padding-top: 8px;">
+                       <div class="card-body">
+                           <h5 class="card-title">Tingkatkan Daya Tarik Produk</h5>
+                           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                           <a href="#" class="btn btn-primary">Baca Selengkapnya</a>
+                       </div>
+                   </div>
+                   <div class="card col-4" style="width: 18rem;">
+                       <img src="<?= base_url("assets/img/examples/example2.jpeg") ?>" class="card-img-top" alt="..." style="padding-top: 8px;">
+                       <div class="card-body">
+                           <h5 class="card-title">Ayo Produktif !</h5>
+                           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                           <a href="#" class="btn btn-primary">Baca Selengkapnya</a>
+                       </div>
+                   </div>
+                   <div class="card col-4" style="width: 18rem;">
+                       <img src="<?= base_url("assets/img/examples/example3.jpeg") ?>" class="card-img-top" alt="..." style="padding-top: 8px;">
+                       <div class="card-body">
+                           <h5 class="card-title">Jangan Bisnis Melulu</h5>
+                           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                           <a href="#" class="btn btn-primary">Baca Selengkapnya</a>
+                       </div>
+                   </div>
+               </div>
            </div>
        </div>
        <!-- akhir our place -->
